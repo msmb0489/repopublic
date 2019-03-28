@@ -1,2 +1,6 @@
 Line 1 of text file
 Line 2 of text file
+Commit the code to local repository so that current version of code file can be saved for future reference.  Configure the identification of developer who commit the code to local repository.PS D:\lab\Git\gitlab> git commit -m "first commit"*** Please tell me who you are.Rungit config --global user.email "you@example.com"git config--global user.name "Your Name"to set your account's default identity.Omit --global to set the identity only in this repository.fatal: unable to auto-detect email address (got 'ACER@DESKTOP-H9FJ387.(none)')PS D:\lab\Git\gitlab> git config user.name "Prakash"PS D:\lab\Git\gitlab> git config user.email "prakash@devops.com"PS D:\lab\Git\gitlab> type .git/config[core]repositoryformatversion = 0
+filemode = falsebare = falselogallrefupdates = truesymlinks= falseignorecase = true[user]name = Prakashemail = prakash@devops.comPS
+line 3 of text line
+line 4 of new line
